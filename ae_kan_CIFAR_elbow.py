@@ -80,3 +80,13 @@ for k in range(0, 3072, 50):
     
 rec = rec.sort_values('size', ascending=True)
 rec.plot( x = 'size', y = 'loss')
+
+plt.figure(figsize=(6, 4), dpi=600)
+plt.plot(rec['size'], rec['loss'], marker='o', linestyle='-', color='b', label='Loss')
+plt.xlabel('Size', fontsize=12)
+plt.ylabel('Loss', fontsize=12)
+plt.title('CIFAR Dataset', fontsize=14)
+plt.grid(True)
+plt.legend()
+plt.savefig('cifar_elbow.png', bbox_inches='tight')
+plt.show()
