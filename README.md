@@ -18,7 +18,7 @@ If you find this project helpful, please cite our work:
 @article{moradi2024KAN_autoencoders,
   title={Kolmogorov-Arnold Network Autoencoders},
   author={Mohammadamin Moradi and Shirin Panahi and Erik Bollt and Ying-Cheng Lai},
-  journal={arXiv preprint arXiv:XXXX.XXXXX},
+  journal={arXiv preprint arXiv:2410.02077},
   year={2024}
 }
 ```
